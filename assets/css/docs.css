@@ -93,7 +93,22 @@ hr.soften {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-background-image: linear-gradient(top, rgb(66,62,181) 16%, rgb(224,45,60) 65%);
+
+background-image: linear-gradient(top, rgb(33,2,79) 9%, rgb(107,23,23) 81%);
+background-image: -o-linear-gradient(top, rgb(33,2,79) 9%, rgb(107,23,23) 81%);
+background-image: -moz-linear-gradient(top, rgb(33,2,79) 9%, rgb(107,23,23) 81%);
+background-image: -webkit-linear-gradient(top, rgb(33,2,79) 9%, rgb(107,23,23) 81%);
+background-image: -ms-linear-gradient(top, rgb(33,2,79) 9%, rgb(107,23,23) 81%);
+
+background-image: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  color-stop(0.09, rgb(33,2,79)),
+  color-stop(0.81, rgb(107,23,23))
+);
+
+/*background-image: linear-gradient(top, rgb(66,62,181) 16%, rgb(224,45,60) 65%);
 background-image: -o-linear-gradient(top, rgb(66,62,181) 16%, rgb(224,45,60) 65%);
 background-image: -moz-linear-gradient(top, rgb(66,62,181) 16%, rgb(224,45,60) 65%);
 background-image: -webkit-linear-gradient(top, rgb(66,62,181) 16%, rgb(224,45,60) 65%);
@@ -106,7 +121,7 @@ background-image: -webkit-gradient(
   color-stop(0.16, rgb(66,62,181)),
   color-stop(0.65, rgb(224,45,60))
 );
-
+*/
 
   /* background: #020031; */ /* Old browsers */
   /* background: -moz-linear-gradient(45deg,  #020031 0%, #6d3353 100%); */ /* FF3.6+ */
